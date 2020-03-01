@@ -1,0 +1,197 @@
+<html lang="en">
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=EB+Garamond|Spinnaker&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <style>
+      * {
+        color: #1a2b6d !important;
+      }
+
+      h1 {
+        font-family: "EB Garamond", sans-serif;
+        font-size: 1.8rem !important;
+      }
+
+      h3 {
+        font-family: "Spinnaker", sans-serif;
+        font-size: 1.3rem !important;
+        opacity: 0.5;
+      }
+
+      .nav-item {
+        color: #1a2b6d;
+        padding: 0.7rem;
+        font-size: 0.7rem;
+        border: none;
+      }
+
+      .dropdown {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+      }
+
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #fff;
+        min-width: 160px;
+        z-index: 1;
+      }
+
+      .dropdown-content a {
+        color: #1a2b6d;
+        padding: 0.75rem 1rem;
+        text-decoration: none;
+        display: block;
+      }
+
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+
+      li.active {
+        color: red !important;
+      }
+
+      .jumb {
+        height: 700px;
+        background: url("https://images.unsplash.com/photo-1565008447742-97f6f38c985c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1189&q=80");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+      }
+
+      /*		.dropdown:hover .dropbtn {background-color: #3e8e41;}
+*/
+    </style>
+  </head>
+  <body>
+    <header id="header">
+      <nav class="navbar navbar-expand-lg px-3">
+        <a href="#" class="navbar-brand">
+          <img src="images/haward.png" alt="main icon"
+        /></a>
+        <div class="d-flex justify-content-between">
+          <div class="d-lg-block d-none">
+            <h1 class="text-uppercase mt-1">
+              <b>haward technology middle east</b>
+            </h1>
+            <h3><b>High-Class Training for Engineers</b></h3>
+          </div>
+          <div class="ml-lg-5">
+            <button
+              type="button"
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#myNavbar"
+            >
+              <span class="toggler-icon">
+                <i class="fas fa-bars"></i>
+              </span>
+            </button>
+            <div class="collapse navbar-collapse" id="myNavbar">
+              <ul class="navbar-nav text-capitalize">
+                <li class="nav-item active">
+                  <a href="#header" class="nav-link"><b>home</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <span class="nav-link"><b>about us</b></span>
+                  <div class="dropdown-content">
+                    <a href="#" class="nav-link"><b>who we are</b></a>
+                    <a href="#" class="nav-link"><b>our offices</b></a>
+                    <a href="#" class="nav-link"><b>our clients</b></a>
+                    <a href="#" class="nav-link"><b>accreditations</b></a>
+                    <a href="#" class="nav-link text-uppercase"><b>cpd</b></a>
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <span class="nav-link"><b>our services</b></span>
+                  <div class="dropdown-content">
+                    <a href="#" class="nav-link"><b>public training</b></a>
+                    <a href="#" class="nav-link"
+                      ><b>in-house & customized training</b></a
+                    >
+                    <a href="#" class="nav-link"><b>haward E-Learning</b></a>
+                    <a href="#" class="nav-link"
+                      ><b>engineering consulting</b></a
+                    >
+                    <a href="#" class="nav-link"
+                      ><b>engineering publications</b></a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item dropdown">
+                  <span class="nav-link"><b>training schedule</b></span>
+                  <div class="dropdown-content">
+                    <a href="#" class="nav-link"
+                      ><b>training schedule 2020</b></a
+                    >
+                    <a href="#" class="nav-link"
+                      ><b>comprehensive training</b></a
+                    >
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="nav-link"><b>examination schedule</b></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <span class="nav-link"><b>more</b></span>
+                  <div class="dropdown-content">
+                    <a href="#" class="nav-link"><b>contact us</b></a>
+                    <a href="#" class="nav-link"><b>register</b></a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="jumb"></div>
+      <div class="jumb" style="background: #1a2b6d;"></div>
+    </main>
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javacript">
+        jQuery(document).ready(function () {
+        (function ($) {
+      $('.nav li a').click(function(e) {
+          $('.nav li.active').removeClass('active');
+          var $parent = $(this).parent();
+          $parent.addClass('active');
+          e.preventDefault();
+        })(jQuery))
+        });
+    </script>
+  </body>
+</html>
